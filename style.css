@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightsteelblue;
+
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+}
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: navy;
+    font-size: 3em;
+    text-align: center;
+}
