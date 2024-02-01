@@ -5,6 +5,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 4px;
 }
+
 nav ul{
     list-style: none;
     display: flex;
@@ -19,7 +20,13 @@ nav ul{
 nav ul li{
     padding: 5px;
     margin: 2px;
-    text-align: center;
+    text-align: center; 
+}
+nav li:hover, li:active{
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 4px; 
+    transform:scale(1.1); ;
 }
 .navbar a{
     color: white;
@@ -49,4 +56,28 @@ h1 {
     color: navy;
     font-size: 3em;
     text-align: center;
+}
+
+/* Contact page */
+
+#contact button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    background-color: navy;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#containBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
