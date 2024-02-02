@@ -76,7 +76,12 @@ footer {
     padding: 10px;
     font-size: 10px;
 }
-
+footer a {
+    color: grey;
+    text-decoration: none;
+    font-size: 10px;
+    background-color:khaki;
+}
 body {
     justify-content: center;
     align-items: center;
