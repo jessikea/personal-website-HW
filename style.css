@@ -44,7 +44,14 @@ p {
     font-size: 20px;
     font-weight:500;
 }
-
+h2 {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight:bold;
+    color: navy;
+}
 h3 {
     padding: 10px;
     margin: 10px;
@@ -110,24 +117,6 @@ img {
 .image-button:hover img {
     transform: scale(1.2); /* Enlarge the image on hover */
 }
-
-/* .image-button:hover::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    white-space: pre-wrap;
-    max-width: 300px; 
-    overflow: hidden;
-    text-overflow: ellipsis;
-    opacity: 0.9;
-    z-index: 1;
-} */
 
 /* Adjust tooltip position for small screens */
 @media screen and (max-width: 600px) {
