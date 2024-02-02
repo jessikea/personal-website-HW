@@ -79,9 +79,12 @@ footer {
 footer a {
     color: grey;
     text-decoration: none;
-    font-size: 10px;
-    background-color:khaki;
-}
+    font-size: 12px;
+    background-color:skyblue;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px;
+    opacity: 80%;}
 body {
     justify-content: center;
     align-items: center;
@@ -160,8 +163,13 @@ button {
 }
 
 #containBtn {
-    display: flex;
+    display: flex;;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+
 }
+
+
+
+
