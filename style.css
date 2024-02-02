@@ -112,7 +112,7 @@ img {
 }
 
 .image-button:hover::after {
-    content: attr(data-tooltip);
+    /* content: attr(data-tooltip); */
     position: absolute;
     top: 100%;
     left: 50%;
@@ -122,7 +122,7 @@ img {
     padding: 10px;
     border-radius: 5px;
     white-space: pre-wrap;
-    max-width: 300px; /* Set the maximum width to 300 pixels */
+    max-width: 300px; 
     overflow: hidden;
     text-overflow: ellipsis;
     opacity: 0.9;
