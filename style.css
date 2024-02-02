@@ -84,10 +84,17 @@ body {
 }
 
 h1 {
-    color: navy;
+    color:dodgerblue;
+    text-shadow: 5px 5px 5px #000000;
     font-size: 3em;
-    text-align: center;
+    text-align: center; 
+    background-image: url(./images/lab-safety--art.jpeg);
+    background-size:550px;
+    padding: 100px
 }
+
+/* Home Page */
+
 
 /* SDS Page */
 #sds {
