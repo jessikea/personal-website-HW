@@ -111,8 +111,8 @@ img {
     transform: scale(1.2); /* Enlarge the image on hover */
 }
 
-.image-button:hover::after {
-    /* content: attr(data-tooltip); */
+/* .image-button:hover::after {
+    content: attr(data-tooltip);
     position: absolute;
     top: 100%;
     left: 50%;
@@ -127,7 +127,7 @@ img {
     text-overflow: ellipsis;
     opacity: 0.9;
     z-index: 1;
-}
+} */
 
 /* Adjust tooltip position for small screens */
 @media screen and (max-width: 600px) {
