@@ -6,7 +6,6 @@
     border-radius: 4px;
 }
 
-
 nav ul {
     list-style: none;
     display: flex;
@@ -154,20 +153,13 @@ img {
 
 button {
     padding: 10px;
-    margin: 10px;
+    margin: 20px;
     border: none;
     background-color: navy;
     color: white;
     cursor: pointer;
     border-radius: 4px;
-}
-
-#containBtn {
-    display: flex;;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-
+    width: 80px;
 }
 
 
