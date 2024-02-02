@@ -1,12 +1,13 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 4px;
 }
 
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -17,23 +18,44 @@ nav ul{
     font-size: 20px;
 }
 
-nav ul li{
+nav ul li {
     padding: 5px;
     margin: 2px;
-    text-align: center; 
+    text-align: center;
 }
-nav li:hover, li:active{
-    background-color:cornflowerblue;
+
+nav li:hover,
+nav li:active {
     color: white;
-    border-radius: 4px; 
-    transform:scale(1.1); ;
+    border-radius: 4px;
+    transform: scale(1.1);
 }
-.navbar a{
+
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 10px;
 }
-footer{
+
+p {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 20px;
+    font-weight:500;
+}
+
+h3 {
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    font-size: 30px;
+    font-weight:bold;
+    color: navy;
+    
+}
+
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -43,13 +65,11 @@ footer{
     padding: 10px;
     font-size: 10px;
 }
+
 body {
-    /* display: flex; */
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     height: 100vh;
-    /* margin: 0;
-    padding: 0; */
 }
 
 h1 {
@@ -58,14 +78,73 @@ h1 {
     text-align: center;
 }
 
-/* Contact page */
+/* SDS Page */
+#sds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
-#contact button:hover{
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.image-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    display: inline-block;
+    position: relative; /* Needed for positioning the tooltip */
+    height: auto;
+    transition: transform 0.2s; /* Add a smooth hover effect */
+}
+
+.image-button img {
+    height: auto;
+}
+.image-button:hover img {
+    transform: scale(1.2); /* Enlarge the image on hover */
+}
+
+.image-button:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    max-width: 300px; /* Set the maximum width to 300 pixels */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+/* Adjust tooltip position for small screens */
+@media screen and (max-width: 600px) {
+    .image-button:hover::after {
+        left: 10%;
+        transform: translateX(0);
+    }
+}
+
+
+/* Contact page */
+#contact button:hover {
     background-color: cornflowerblue;
     color: white;
 }
 
-button{
+button {
     padding: 10px;
     margin: 10px;
     border: none;
@@ -75,7 +154,7 @@ button{
     border-radius: 4px;
 }
 
-#containBtn{
+#containBtn {
     display: flex;
     justify-content: center;
     align-items: center;
