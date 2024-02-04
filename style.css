@@ -28,6 +28,8 @@ nav ul li {
     padding: 5px;
     margin: 2px;
     text-align: center;
+    color: white;
+    
 }
 
 nav li:hover,
@@ -35,12 +37,6 @@ nav li:active {
     background-color: cornflowerblue;
     border-radius: 4px;
     transform: scale(1.1);
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
 }
 a{
     color: navy;
