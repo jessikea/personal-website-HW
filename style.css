@@ -197,10 +197,6 @@ button {
     background-color: navy;
     color: white;
     cursor: pointer;
-    border-radius: 4px;
+    border-radius: 10px;
     width: 80px;
 }
-
-
-
-
