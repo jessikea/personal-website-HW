@@ -201,7 +201,7 @@ button {
     width: 80px;
 }
 .contact-input-box {
-    background-color: #fff;
+    background-color: whitesmoke;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -212,11 +212,14 @@ button {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: rgba(198, 198, 235, 0.4) ;
 }
 
 label {
     margin-top: 10px;
-    color: #666;
+    color: navy;
+    font-size: 20px;
 }
 
 input,
