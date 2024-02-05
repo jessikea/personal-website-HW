@@ -110,10 +110,8 @@ h3 {
     font-size: 30px;
     font-weight:bold;
     color: navy;
-    background-color: seashell;
+    background-color: rgba(255, 245, 238, 0.7);
     border-radius: 10px;
-
-    
 }
 
 footer 
@@ -128,10 +126,10 @@ footer
     font-size: 10px;
 }
 footer a {
-    color: grey;
+    color: white;
     text-decoration: none;
     font-size: 12px;
-    background-color:skyblue;
+    background-color:lightseagreen;
     padding: 5px;
     border-radius: 4px;
     margin: 5px;
@@ -144,14 +142,6 @@ footer a:hover {
 }
 
 /* Controls */
-
-#controls {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-}
 
 .image-button-larger{
     display: flex;
