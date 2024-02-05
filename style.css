@@ -6,11 +6,17 @@
     border-radius: 4px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: whitesmoke;
+    background-image: url(./images/labgif.gif); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav ul {
@@ -57,8 +63,10 @@ p {
     padding: 50px;
     margin: 10px;
     text-align: left;
-    font-size: 20px;
-    font-weight:500;
+    font-size: 26px;
+    font-weight:400;
+    color:whitesmoke;   
+    text-shadow: 3px 3px 3px #000000;
 }
 
 /* Home */
