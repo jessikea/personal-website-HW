@@ -96,12 +96,12 @@ h1 {
 h2 {
     padding: 10px;
     margin: 10px;
-    text-align: left;
-    font-size: 32px;
+    text-align: center;
+    font-size: 46px;
     font-weight:bold;
     color:dodgerblue;
     text-shadow: 3px 3px 3px #000000;
-    background-color: rgb(4, 4, 132, .4) ;
+    background-color: rgba(198, 198, 235, 0.4) ;
 }
 h3 {
     padding: 10px;
@@ -110,6 +110,8 @@ h3 {
     font-size: 30px;
     font-weight:bold;
     color: navy;
+    background-color: seashell;
+
     
 }
 
